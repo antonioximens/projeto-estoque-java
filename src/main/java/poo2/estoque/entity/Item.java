@@ -21,6 +21,7 @@ public class Item {
     // criando o auto incremento do id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // declarando as variaveis
     private Long id;
     private String name;
     private int quantity;

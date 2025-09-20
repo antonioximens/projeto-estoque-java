@@ -20,7 +20,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "orders")
 
-public class Order extends Item {
+public class Order {
     // gerando id no autoincremento
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
